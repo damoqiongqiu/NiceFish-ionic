@@ -18,7 +18,7 @@ NiceFish可以用来搭建个人Blog、微型SNS站点，或者用于学习Angul
 
 #运行效果
 
-![视频教程截图](src/assets/imgs/1.png)
+![视频教程截图](src/assets/img/1.png)
 
 #用法
 

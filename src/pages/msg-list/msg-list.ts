@@ -7,6 +7,6 @@ import { NavController } from 'ionic-angular';
 })
 export class MsgList {
   constructor(public navCtrl: NavController) {
-  	
+
   }
 }
