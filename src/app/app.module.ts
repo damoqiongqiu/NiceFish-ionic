@@ -2,28 +2,34 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
-import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { WeChatApp } from './app.component';
+import { MsgList } from '../pages/msg-list/msg-list';
+import { Contacts } from '../pages/contacts/contacts';
+import { Discover } from '../pages/discover/discover';
+import { AboutMe } from '../pages/about-me/about-me';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
-    MyApp,
-    HomePage,
-    ListPage
+    WeChatApp,
+    MsgList,
+    Contacts,
+    Discover,
+    AboutMe
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(WeChatApp),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    HomePage,
-    ListPage
+    WeChatApp,
+    MsgList,
+    Contacts,
+    Discover,
+    AboutMe
   ],
   providers: [
     StatusBar,
