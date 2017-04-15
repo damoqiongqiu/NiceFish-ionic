@@ -1,12 +1,23 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, PopoverController } from 'ionic-angular';
+import { PopoverPage } from './popover-page';
 
 @Component({
   selector: 'msg-list',
   templateUrl: 'msg-list.html'
 })
 export class MsgList {
-  constructor(public navCtrl: NavController) {
+	constructor(
+		private popoverCtrl: PopoverController,
+		public navCtrl: NavController
+	) {
 
-  }
+  	}
+
+  	presentPopover(ev) {
+	    let popover = this.popoverCtrl.create(PopoverPage);
+	    popover.present({
+	      ev: ev
+	    });
+	}
 }

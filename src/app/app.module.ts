@@ -7,6 +7,7 @@ import { MsgList } from '../pages/msg-list/msg-list';
 import { Contacts } from '../pages/contacts/contacts';
 import { Discover } from '../pages/discover/discover';
 import { AboutMe } from '../pages/about-me/about-me';
+import { PopoverPage } from '../pages/msg-list/popover-page';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MsgList,
     Contacts,
     Discover,
-    AboutMe
+    AboutMe,
+    PopoverPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MsgList,
     Contacts,
     Discover,
-    AboutMe
+    AboutMe,
+    PopoverPage
   ],
   providers: [
     StatusBar,
