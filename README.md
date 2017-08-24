@@ -29,6 +29,8 @@ NiceFish是一个系列教学项目，都是Angular这个技术栈。
 
 ionic支持的所有移动端UI组件和demo代码请参考这里：http://ionicframework.com/docs
 
+如果你需要真正打包成Android的apk文件，需要首先安装好Android Studio，请按照Ionic官方的文档进行安装配置，中间有好些坑，自己尝试搞定。
+
 ## 在线交流QQ群
 
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=8db5ed802cbddbf6432d7ba7dc4f2a316be020442491eb41cbfb1a12434e8cc7" class="list-group-item"><i class="fa fa-qq" aria-hidden="true"></i> Angular-1区-丝绸之路:286047042（满）</a>
