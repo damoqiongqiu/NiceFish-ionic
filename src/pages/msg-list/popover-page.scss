@@ -1,0 +1,37 @@
+$backgroundColor: #4D4D4D;
+ion-popover{
+    .popover-arrow::after{
+        background-color: $backgroundColor !important;
+    }
+    .popover-content{
+        width: 138px !important;
+        border-radius: 1px !important;
+        background-color: $backgroundColor !important;
+    }
+}
+
+.popover-list{
+    margin: 0;
+
+    ion-item{
+        background: $backgroundColor;
+        padding-right: 16px;
+        min-height: 3rem;
+
+        .item-block:last-child{
+            border: none;
+        }
+
+        ion-label{
+            margin: 5px 8px 5px 0;
+            font-size: 1.5rem;
+
+            ion-icon{
+                width: 15px;
+            }
+            ion-note{
+                margin-left: 10px;
+            }
+        }
+    }
+}

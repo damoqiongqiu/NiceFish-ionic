@@ -6,45 +6,50 @@
         <ion-title>我</ion-title>
     </ion-navbar>
 </ion-header>
-<ion-content>
+<ion-content class="list-about-me-page">
     <ion-item-group>
         <ion-item-divider color="light"></ion-item-divider>
-        <ion-item>
+        <ion-item class="header-item">
             <ion-thumbnail item-left>
                 <img src="assets/img/avatar-ts-woody.png">
             </ion-thumbnail>
             <h2>大漠穷秋</h2>
             <p>微信号：scriptbaby</p>
+            <img class="qrcode" src="./assets/img/wechat/icon-11.png" item-end>
+            <ion-icon name="arrow-forward" color="textGray" item-end></ion-icon>
         </ion-item>
     </ion-item-group>
     <ion-item-group>
+            <ion-item-divider color="light"></ion-item-divider>
+            <button ion-item>
+                <img src="./assets/img/wechat/icon-12.png">
+                <span>钱包</span>
+            </button>
+        </ion-item-group>
+    <ion-item-group>
         <ion-item-divider color="light"></ion-item-divider>
         <button ion-item>
-            相册
+            <img src="./assets/img/wechat/icon-17.png">
+            <span>收藏</span>
         </button>
         <button ion-item>
-            收藏
+            <img src="./assets/img/wechat/icon-13.png">
+            <span>相册</span>
         </button>
         <button ion-item>
-            钱包
+            <img src="./assets/img/wechat/icon-14.png">
+            <span>卡包</span>
         </button>
         <button ion-item>
-            卡包
+            <img src="./assets/img/wechat/icon-15.png">
+            <span>表情</span>
         </button>
     </ion-item-group>
     <ion-item-group>
         <ion-item-divider color="light"></ion-item-divider>
         <button ion-item>
-            表情
+            <img src="./assets/img/wechat/icon-16.png">
+            <span>设置</span>
         </button>
-    </ion-item-group>
-    <ion-item-group>
-        <ion-item-divider color="light"></ion-item-divider>
-        <button ion-item>
-            设置
-        </button>
-    </ion-item-group>
-    <ion-item-group>
-        <ion-item-divider color="light"></ion-item-divider>
     </ion-item-group>
 </ion-content>
