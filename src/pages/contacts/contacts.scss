@@ -1,3 +1,50 @@
-page-list {
+.list-contacts-page {
+    ion-list-header{
+        border: none;
+        min-height: .8rem;
+        background: #F1F1F1;
 
+        ion-label{
+            margin: 5px 8px 5px 0;
+            color: #888;
+        }
+    }
+
+    ion-item{
+        margin-left: 16px;
+        padding-left: 0;
+        border-bottom: 0.55px solid #E5E5E5;
+
+        h2{
+            font-size: 1.5rem;
+        }
+
+        ion-avatar img{
+            width: 35px;
+            height: 35px;
+            border-radius: 0;
+        }
+
+        ion-avatar[item-left]{
+            margin: 2px 16px 2px 0;
+            min-width: 35px;
+            min-height: 35px;
+        }
+    }
+
+    .item-block{
+        min-height: 4rem;
+        
+        &:first-child{
+            border-top: 0.55px solid #E5E5E5;
+        }
+
+        &:last-child{
+            border-bottom: 0.55px solid #E5E5E5;
+        }
+
+        >.item-inner{
+            border: none
+        }
+    }
 }

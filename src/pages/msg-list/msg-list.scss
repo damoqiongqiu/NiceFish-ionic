@@ -1,7 +1,37 @@
 .list-avatar-page {
+    ion-list{
+        margin-bottom: 0;
+    }
+
     ion-note {
         font-size: 12px;
         align-self: flex-start;
         margin-top: 14px;
+    }
+
+    ion-item{
+        border-bottom: 0.55px solid #E5E5E5;
+
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+
+    .item-block{
+        &:first-child{
+            border-top: 0.55px solid #E5E5E5;
+        }
+
+        &:last-child{
+            border-bottom: 0.55px solid #E5E5E5;
+        }
+
+        >.item-inner{
+            border: none
+        }
+    }
+
+    ion-avatar img{
+        border-radius: 5px;
     }
 }
