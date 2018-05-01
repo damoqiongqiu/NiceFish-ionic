@@ -25,8 +25,6 @@ NiceFish是一个系列教学项目，都是Angular这个技术栈。
 
 打开你的浏览器访问http://localhost:8100/
 
-关于ionic的更详细介绍请看这里：http://ionicframework.com/getting-started/ ionic支持的所有移动端UI组件和demo代码请参考这里：http://ionicframework.com/docs 如果你需要真正打包成Android的apk文件，需要首先安装好Android Studio，请按照Ionic官方的文档进行安装配置，中间有好些坑，自己尝试搞定。
-
 ## 在线交流QQ群
 
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=8db5ed802cbddbf6432d7ba7dc4f2a316be020442491eb41cbfb1a12434e8cc7" class="list-group-item"><i class="fa fa-qq" aria-hidden="true"></i> Angular-1区-丝绸之路:286047042（满）</a>
@@ -51,9 +49,11 @@ Angular-6区-凉州:124641447（将满）
 
 如果您有Angular相关的问题需要讨论，或者单纯想跟我Say Hello，请加上面几个扣扣群。注意，我每天都会收到大量的求助消息，真的有点忙，所以请您优先在扣扣群里面讨论问题。
 
-## 关于我
+## 学习资源和视频教程
 
-我是大漠穷秋，我的Github个人主页在这里：http://damoqiongqiu.github.io/ 。
+大漠演讲中的所有PPT已经本项目对应的资料都在这里，您可以随意使用，https://gitee.com/mumu-osc/NiceFish/attach_files 。
+
+如果您需要教程，请自己来这里查看，http://www.ngfans.net/ ，有视频也有文字，有免费版本也有收费版，您自己看着选。
 
 ## 开源许可证
  MIT
