@@ -1,5 +1,5 @@
 
-<img src="src/assets/imgs/dist.png" alt="nicefish"/>
+<img src="src/assets/img/dist.png" alt="nicefish"/>
 
 ### NiceFish（美人鱼）
 
