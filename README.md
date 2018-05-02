@@ -64,6 +64,8 @@ Windows 10也已经支持PWA应用，当你在Chrome的菜单里面选择把这�
 
 ![PWA运行效果](src/assets/img/2.png)
 
+iOS版本需要大于11.3，Windows 10需要升级到最新的更新包，你会发现，利用Angular开发跨平台的PWA应用竟然如此简单！
+
 
 ### 在线交流QQ群
 
