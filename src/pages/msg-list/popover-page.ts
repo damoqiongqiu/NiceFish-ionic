@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavParams } from 'ionic-angular';
 
 @Component({
   templateUrl: 'popover-page.html'
@@ -29,7 +28,7 @@ export class PopoverPage {
     },
   };
 
-  constructor(private navParams: NavParams) {
+  constructor() {
 
   }
 
