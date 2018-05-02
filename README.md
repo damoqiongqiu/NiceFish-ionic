@@ -54,8 +54,16 @@ NiceFish-ionic：https://damoqiongqiu.github.io/NiceFish-ionic/
 
 然后选择“添加到主屏幕”，就像这样：
 
+![PWA运行效果](src/assets/img/1.jpg)
 
-然后你就可以看到应用图标出现在手机的主屏幕上了。
+然后你就可以看到应用图标出现在手机的主屏幕上了，就像这样：
+
+![PWA运行效果](src/assets/img/3.jpg)
+
+Windows 10也已经支持PWA应用，当你在Chrome的菜单里面选择把这个应用“添加到主屏幕”之后，你就可以看到这样的结果：
+
+![PWA运行效果](src/assets/img/2.png)
+
 
 ### 在线交流QQ群
 
