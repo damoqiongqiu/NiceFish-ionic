@@ -47,6 +47,17 @@ NiceFish-ionic：https://damoqiongqiu.github.io/NiceFish-ionic/
 
     npm run ionic:build --prod
 
+### 把应用添加到手机桌面
+
+打开你的safari浏览器或者chrome浏览器，访问https://damoqiongqiu.github.io/NiceFish-ionic/
+
+然后选择“添加到主屏幕”，就像这样：
+
+
+然后你就可以看到应用图标出现在主屏幕上了：
+
+
+
 ### 在线交流QQ群
 
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=8db5ed802cbddbf6432d7ba7dc4f2a316be020442491eb41cbfb1a12434e8cc7" class="list-group-item"><i class="fa fa-qq" aria-hidden="true"></i> Angular-1区-丝绸之路:286047042（满）</a>
