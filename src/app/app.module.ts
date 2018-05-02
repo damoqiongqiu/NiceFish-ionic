@@ -9,9 +9,6 @@ import { Discover } from '../pages/discover/discover';
 import { AboutMe } from '../pages/about-me/about-me';
 import { PopoverPage } from '../pages/msg-list/popover-page';
 
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
-
 @NgModule({
   declarations: [
     WeChatApp,
@@ -35,8 +32,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PopoverPage
   ],
   providers: [
-    StatusBar,
-    SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
