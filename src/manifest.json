@@ -1,10 +1,10 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Nicefish-Ionic",
+  "short_name": "Nicefish",
   "start_url": "index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "icons": [{
-    "src": "assets/imgs/logo.png",
+    "src": "assets/icon/logo.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
