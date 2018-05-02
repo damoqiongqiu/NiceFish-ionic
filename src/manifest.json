@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "display": "fullscreen",
   "icons": [{
-    "src": "assets/icon/logo.png",
+    "src": "assets/img/ng2.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
