@@ -9,7 +9,7 @@ NiceFish是一个系列教学项目，目标是全面示范Angular在浏览器�
 
 - NiceFish-Admin：这是系统管理界面，基于Angular 4.x+PrimeNG，http://git.oschina.net/mumu-osc/NiceFish-Admin
 
-- NiceFish-ionic：这是一个移动端的demo，基于ionic。http://git.oschina.net/mumu-osc/nicefish-ionic
+- NiceFish-ionic：这是一个移动端的demo，基于ionic，此项目已支持PWA。http://git.oschina.net/mumu-osc/nicefish-ionic
 
 - NiceBlogElectron：https://github.com/damoqiongqiu/NiceBlogElectron ,这是一个基于Electron的桌面端项目，把NiceFish用Electron打包成了一个桌面端运行的程序。这是由ZTE中兴通讯的前端道友提供的，我fork了一个，有几个node模块的版本号老要改，如果您正在研究如何利用Electron开发桌面端应用，请参考这个项目。
 
@@ -35,11 +35,12 @@ NiceFish-ionic：https://damoqiongqiu.github.io/NiceFish-ionic/
 
 ### 用法
 
-克隆本项目之后，命令行进入项目根目录。
-
-- cnpm install -g cordova ionic
-- cnpm install
-- ionic serve
+    for THIS_REPO
+    git clone YOUR_REPO
+    cd nicefish-ionic
+    cnpm install -g cordova ionic
+    cnpm install
+    ionic serve
 
 打开你的浏览器访问http://localhost:8100/
 
@@ -47,16 +48,14 @@ NiceFish-ionic：https://damoqiongqiu.github.io/NiceFish-ionic/
 
     npm run ionic:build --prod
 
-### 把应用添加到手机桌面
+### PWA支持
 
 打开你的safari浏览器或者chrome浏览器，访问https://damoqiongqiu.github.io/NiceFish-ionic/
 
 然后选择“添加到主屏幕”，就像这样：
 
 
-然后你就可以看到应用图标出现在主屏幕上了：
-
-
+然后你就可以看到应用图标出现在手机的主屏幕上了。
 
 ### 在线交流QQ群
 
