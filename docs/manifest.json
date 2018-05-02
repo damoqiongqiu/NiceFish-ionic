@@ -1,0 +1,13 @@
+{
+  "name": "Nicefish-Ionic",
+  "short_name": "Nicefish",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "icons": [{
+    "src": "assets/icon/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#4e8ef7",
+  "theme_color": "#4e8ef7"
+}
