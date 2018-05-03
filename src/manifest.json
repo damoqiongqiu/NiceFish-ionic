@@ -1,7 +1,7 @@
 {
-  "name": "Nicefish-Ionic",
-  "short_name": "Nicefish",
-  "start_url": "/index.html",
+  "name": "NiceFish-ionic",
+  "short_name": "NiceFish",
+  "start_url": "/NiceFish-ionic/index.html",
   "display": "standalone",
   "icons": [
     {
